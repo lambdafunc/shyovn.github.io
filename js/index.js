@@ -146,8 +146,8 @@ function onWindowResize(){
 
 $(window).resize(onWindowResize);
 
-// var profile;
-// swal({
+var profile;
+swal({
 // 		title: "Hello World!!!",
 // 		text: "Hello visitor, you have landed upon little webspace of moghya. I hope you're doing well."
 		// buttons: ["Nope, I'm just looking around.", "Yes, I'm hiring :)"]
@@ -230,7 +230,7 @@ function loadMoghysSays() {
 			<div class="col m3 s3"><a href="http://t4t5.github.io/sweetalert/">Sweetalert</a></div>
 		</div>
 	</div>`;
-	$('#moghyaSays').html(moghyaSaysInnerHtml);
+// 	$('#moghyaSays').html(moghyaSaysInnerHtml);
 }
 
 $.get("js/profile.json", 
